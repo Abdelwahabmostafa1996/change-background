@@ -1,0 +1,97 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    background-color: black;
+    height: 100vh;
+    width: 100;
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    padding: 10px 0;
+    margin: auto;
+}
+
+.logo {
+    width: 90px;
+}
+
+ul {
+    margin-right: 15%;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    font-size: 22px;
+    padding-left: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+
+.text {
+    width: 40%;
+    color: white;
+}
+
+.content .text h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.content .text p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.content .text a {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 8px 16px;
+    border-radius: 10px;
+}
+
+.img-content {
+    width: 30%
+}
+
+.img-content img {
+    width: 200px;
+}
+
+.icons {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.icons img {
+    width: 65px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.icons img:hover {
+    transform: scale(1.2)
+}
